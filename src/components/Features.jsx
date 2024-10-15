@@ -1,9 +1,9 @@
-import React from "react";
+
 import svg3 from "../assets/svg3.svg";
 import svg4 from "../assets/svg4.svg";
 import ai from "../assets/ai.svg";
 import portfolio from "../assets/portfolio.svg";
-import SearchIcon from '../assets/searchicon.svg';
+import SearchIcon from '../assets/searchIcon.svg';
 const Features = () => {
   return (
     <div className="h-full px-4 py-8 text-center">
