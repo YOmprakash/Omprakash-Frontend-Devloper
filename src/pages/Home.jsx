@@ -16,7 +16,7 @@ const Home = () => {
       <About />
       <Tokenomics />
       <Roadmap />
-      <FAQ />
+      {/* <FAQ /> */}
       <Explore />
       <Footer />
     </div>
