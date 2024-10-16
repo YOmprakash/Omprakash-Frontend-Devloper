@@ -1,6 +1,6 @@
 import asset from "../assets/asset.svg";
 import Tools from "../assets/Tools.png";
-import Vector from "../assets/vector.png";``
+
 import Graph from "../assets/graph.png";
 import Future from '../assets/Future.png';
 const About = () => {
