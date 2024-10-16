@@ -5,7 +5,7 @@ import Twitter from '../assets/twitter.png';
 import Facebook from '../assets/Facebook.png';
 import Discord from '../assets/discord.png';
 
-import Logo from '../assets/logo.png';
+import Logo from '../assets/Logo.png';
 const Footer = () => {
   return (
     <footer className="py-8 md:px-12 text-white bg-[#001117] rounded-lg ">
