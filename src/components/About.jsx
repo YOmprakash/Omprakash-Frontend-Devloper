@@ -4,9 +4,9 @@ import Future from "../assets/future.svg";
 import Graph from "../assets/graph.svg";
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-full px-4 py-12 text-center md:px-64">
+    <div className="flex flex-col items-center justify-center h-full px-4 py-12 text-center md:px-32 lg:px-64">
       <h1 className="text-[40px] text-white">About EthAi</h1>
-      <p className="text-[#b0faffb3] my-6">
+      <p className="text-[#b0faffb3] my-6 lg:mx-16">
         At EthAi, we’re all about making crypto trading easier and more
         intuitive. We provide tools that help traders keep up with all new
         market trends, track top traders’ movements.

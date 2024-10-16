@@ -3,9 +3,9 @@ import React from "react";
 const Explore = () => {
   return (
     <div className="flex items-center justify-center h-full px-2 py-12">
-      <div className="max-w-2xl px-2 py-8 mx-4 text-center text-white border rounded-[16px]">
+      <div className="md:max-w-3xl px-2 py-12 mx-4 text-center text-white border rounded-[16px]">
         <h1 className="mb-6 text-4xl font-bold">Explore Our dApp</h1>
-        <p className="mb-8 text-lg">
+        <p className="mx-12 mb-8 text-lg">
           EthAi is an AI-powered dApp designed to help traders make smarter,
           data-driven decisions. By tracking smart money flows, monitoring key
           wallets, and providing real-time market insights, EthAi empowers users

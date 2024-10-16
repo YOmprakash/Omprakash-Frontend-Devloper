@@ -12,8 +12,8 @@ const Roadmap = () => {
       <div className='flex flex-col space-y-8'>
         
         {/* Phase 1 Card */}
-        <div className='flex flex-col items-start md:flex-row md:justify-between'>
-          <div className='text-left '>
+        <div className='flex flex-col items-start md:items-center md:flex-row md:justify-between'>
+          <div className='text-left md:ml-12'>
             <button className='bg-white text-[#0B2A2D] px-4 py-2 rounded-sm mb-4'>
               PHASE 1
             </button>
@@ -39,12 +39,12 @@ const Roadmap = () => {
               </div>
             </div>
           </div>
-          <img src={Preview} alt='preview' className='w-full md:max-w-[400px] mt-8' />
+          <img src={Preview} alt='preview' className='w-full md:max-w-[500px] mt-8' />
         </div>
 
         {/* Phase 2 Card */}
-        <div className='flex flex-col items-start md:flex-row-reverse md:justify-between'>
-          <div className='text-left'>
+        <div className='flex flex-col items-start md:items-center md:flex-row-reverse md:justify-between'>
+          <div className='text-left md:mr-12'>
             <button className='bg-white text-[#0B2A2D] px-4 py-2 rounded-sm mb-4'>
               PHASE 2
             </button>
@@ -70,12 +70,12 @@ const Roadmap = () => {
               </div>
             </div>
           </div>
-          <img src={Preview} alt='preview' className='w-full md:max-w-[400px] mt-8' />
+          <img src={Preview} alt='preview' className='w-full md:max-w-[500px] mt-8' />
         </div>
 
         {/* Phase 3 Card */}
-        <div className='flex flex-col items-start md:flex-row md:justify-between'>
-          <div className='text-left '>
+        <div className='flex flex-col items-start md:items-center md:flex-row md:justify-between'>
+          <div className='text-left md:ml-12'>
             <button className='bg-white text-[#0B2A2D] px-4 py-2 rounded-sm mb-4'>
               PHASE 3
             </button>
@@ -97,7 +97,7 @@ const Roadmap = () => {
               </div>
             </div>
           </div>
-          <img src={Preview} alt='preview' className='w-full md:max-w-[400px] mt-8' />
+          <img src={Preview} alt='preview' className='w-full md:max-w-[500px] mt-8' />
         </div>
 
         

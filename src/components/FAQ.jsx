@@ -14,8 +14,8 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="px-4 py-12">
-      <h1 className="mb-6 text-4xl text-white">Frequently Asked Questions</h1>
+    <div className="flex flex-col justify-center px-4 py-12 md:px-16 md:flex-row">
+      <h1 className="mb-6 text-5xl md:mr-16 text-white md:max-w-[500px] leading-[60px]">Frequently Asked Questions</h1>
 
       <div className="space-y-8">
         {faqData.map((question, index) => (
