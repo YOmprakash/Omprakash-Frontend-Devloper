@@ -2,7 +2,7 @@
 import Telegram from '../assets/telegram.png';
 import Instagram from '../assets/instagram.png';
 import Twitter from '../assets/twitter.png';
-import Facebook from '../assets/facebook.png';
+import Facebook from '../assets/Facebook.png';
 import Discord from '../assets/discord.png';
 
 import Logo from '../assets/logo.png';
