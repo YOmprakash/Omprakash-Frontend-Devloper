@@ -9,14 +9,14 @@ import HeroSec from "../components/HeroSec";
 import FAQ from "../components/FAQ";
 const Home = () => {
   return (
-    <div className="bg-[#00161D] min-h-screen">
+    <div className="min-h-screen bg-[#00161D]">
       <Header />
       <HeroSec />
       <Features />
       <About />
       <Tokenomics />
       <Roadmap />
-      {/* <FAQ /> */}
+      <FAQ />
       <Explore />
       <Footer />
     </div>
