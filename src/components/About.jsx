@@ -1,7 +1,8 @@
 import asset from "../assets/asset.svg";
-import Tool from "../assets/tool.svg";
-import Future from "../assets/future.svg";
-import Graph from "../assets/graph.svg";
+import Tools from "../assets/Tools.png";
+import Vector from "../assets/vector.png";``
+import Graph from "../assets/graph.png";
+import Future from '../assets/Future.png';
 const About = () => {
   return (
     <div className="flex flex-col items-center justify-center h-full px-4 py-12 text-center font-spaceGrotesk md:px-32 lg:px-64">
@@ -39,7 +40,7 @@ const About = () => {
 
         {/* Card 3 */}
         <div className="flex flex-col items-start p-4 rounded-lg ">
-          <img src={Tool} alt="Simple, Not Overwhelming" className="w-10 mb-2" />
+          <img src={Tools} alt="Simple, Not Overwhelming" className="w-10 mb-2" />
           <h1 className="mb-2 text-[22px] font-[500] text-white">
             Simple, Not Overwhelming
           </h1>

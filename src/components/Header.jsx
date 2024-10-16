@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa'; // Import icons from react-icons
-import Logo from '../assets/logo.svg';  
+import Logo from '../assets/Logo.png';  
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

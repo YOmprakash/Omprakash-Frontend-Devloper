@@ -1,8 +1,8 @@
-import svg3 from "../assets/svg3.svg";
-import svg4 from "../assets/svg4.svg";
-import ai from "../assets/ai.svg";
-import portfolio from "../assets/portfolio.svg";
-import SearchIcon from '../assets/SearchIcon.svg';
+import Group from "../assets/Group21.png";
+import svg4 from "../assets/Container.png";
+import Ai from "../assets/Ai.png";
+import portfolio from "../assets/portfolio.png";
+import SearchIcon from '../assets/SearchIcon.png';
 
 const Features = () => {
   return (
@@ -13,7 +13,7 @@ const Features = () => {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         {/* Feature 1: Trade Optimizer */}
         <div className="bg-[#0C2B2F] border border-[#0F373C] rounded-[16px] w-full p-6 flex flex-col justify-center items-center text-center">
-          <img src={svg3} alt="" className="w-[120px] h-[118px] mb-2" />
+          <img src={Group} alt="" className="w-[120px] h-[118px] mb-2" />
           <h1 className="mt-4 mb-3 text-3xl text-white">Trade Optimizer</h1>
           <p className="text-[#b0faffb3] text-2xl">
             Find the right moments to buy or sell, with personalized trade
@@ -50,7 +50,7 @@ const Features = () => {
             your portfolio. This agent helps you navigate volatility and stay
             prepared for anything.
           </p>
-          <img src={ai} alt="" className="max-w-[350px] mt-4" />
+          <img src={Ai} alt="Ai img" className="max-w-[350px] mt-4" />
         </div>
 
         {/* Feature 4: Portfolio Sync */}
